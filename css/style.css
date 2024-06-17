@@ -28,13 +28,26 @@ main{
     margin: 0px 2px;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+    display: block;
+    color: inherit;
+    font-size: 14px;
+}
+
+ul li a:hover{
+    color: #fff;
+}
+
 
 footer{
 
-    background: #333;
-    color: #fff;
+    font-size: 20px;
     padding: 1rem;
-    text-align: center;
-
 
 }
