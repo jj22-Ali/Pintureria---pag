@@ -3,10 +3,14 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color:  rgb(228, 228, 228);
+
 }
 
 main{
     flex-grow: 1;
+    background-color:  rgb(228, 228, 228);
+
 }
 
 #logo {
@@ -15,7 +19,7 @@ main{
 
 #mini-info{
     height: 30px;
-    background-color:  rgb(216, 216, 213);
+    background-color:  rgb(228, 228, 228);
     text-decoration: none;
 }
 #mini-info a{
@@ -47,7 +51,12 @@ ul li a:hover{
 
 footer{
 
-    font-size: 20px;
+    font-size: 18px;
     padding: 1rem;
 
+}
+
+#copy{
+    background-color:  rgb(228, 228, 228);
+    height: 20px;
 }
