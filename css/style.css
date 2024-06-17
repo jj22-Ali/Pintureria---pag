@@ -1,0 +1,40 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+}
+
+#logo {
+    font-size: 30px;
+}
+
+#mini-info{
+    height: 30px;
+    background-color:  rgb(216, 216, 213);
+    text-decoration: none;
+}
+#mini-info a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2px;
+}
+#mini-info i{
+
+    margin: 0px 2px;
+}
+
+
+footer{
+
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+
+
+}
