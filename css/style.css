@@ -3,13 +3,12 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color:  rgb(228, 228, 228);
 
 }
 
 main{
     flex-grow: 1;
-    background-color:  rgb(228, 228, 228);
+    /*background-color:  rgb(228, 228, 228);*/
 
 }
 
@@ -19,12 +18,12 @@ main{
 
 #mini-info{
     height: 30px;
-    background-color:  rgb(228, 228, 228);
+    background-color:  #000080;
     text-decoration: none;
 }
 #mini-info a{
     text-decoration: none;
-    color: black;
+    color: white;
     margin-left: 2px;
 }
 #mini-info i{
@@ -45,9 +44,145 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #fff;
+    color: #fc2727;
 }
 
+.probandoDiv{
+    height: 500px;
+}
+
+.probandoDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover ;
+    /*filter: grayscale(30%);*/
+}
+
+.color-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .color-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.colorBox{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.boxColor{
+
+    width: 100%;
+    
+    display: flex;
+
+
+}
+
+.boxColorImagen{
+    height: 923px;
+    width: 40%;
+}
+
+.boxColorImagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boxColores{
+    height: auto;
+    width: 60%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.boxHogaryObra{
+    margin: 10px;
+    height: 100%;
+    padding: 20px;
+}
+
+.boxDescripcionHO{
+    height: 20%;
+    margin-bottom: 10px;
+}
+
+.boxProductosHO{
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+
+.boxDescProductoHyO{
+    border: 1px solid rgb(206, 205, 205);
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transición para el efecto hover */  
+}
+
+.boxDescProductoHyO:hover {
+    transform: translateY(-5px); /* Levantar la tarjeta */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Incrementar la sombra */
+}
+
+.boxDescProductoHyO h6 {
+    margin-top: 10px;
+}
+
+
+.boxDescProductoHyO img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0; /* Bordes redondeados solo en la parte superior */
+}
+
+.boxDescProductoHyO ul {
+    list-style: none; /* Quitar el estilo por defecto de la lista */
+    padding: 0;
+}
+
+.boxDescProductoHyO li {
+    position: relative;
+    padding-left: 1.5em; /* Dejar menos espacio para el pseudo-elemento */
+}
+
+.boxDescProductoHyO li::before {
+    content: '✔'; /* El tilde */
+    position: absolute;
+    left: 0;
+    color: green; /* Color del tilde */
+    font-size: 1em; /* Asegura que el tamaño del tilde sea consistente */
+    line-height: 1em; /* Ajusta la altura de línea para centrar verticalmente */
+}
+
+.boxDescProductoHyO p.ubicacion::before {
+    content: '📍'; /* Icono de ubicación */
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+}
 
 footer{
 
@@ -57,6 +192,72 @@ footer{
 }
 
 #copy{
-    background-color:  rgb(228, 228, 228);
+    background-color: #000080;
     height: 20px;
 }
+
+@media (max-width: 576px) {
+    .boxDescProductoHyO {
+        width: 100%;  /* Una columna en dispositivos pequeños */
+    }
+}
+
+@media(max-width:767px){
+    .boxColorImagen{
+        display: none;
+    }
+
+    .boxColores{
+        width: 100%;
+    }
+
+    .colorBox{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    .boxColor{
+        flex-direction: column;
+    }
+    .boxColorImagen{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+    }
+    .boxColores{
+        width: 100%;
+    }
+    .colorBox{
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .boxDescProductoHyO {
+        width: calc(50% - 20px);  /* Ajustar para 2 columnas */
+    }
+}
+@media (min-width: 992px) {
+    .boxColorImagen {
+        height: auto;
+        width: 40%;
+        display: block;
+    }
+
+    .boxColores {
+        width: 60%;
+    }
+
+    .colorBox {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+}
+

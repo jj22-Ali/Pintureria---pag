@@ -1,0 +1,41 @@
+{
+    "productos":[
+        {
+            "imagen": "../img/productosHyO/HyO1.jpg",
+            "nombre": "Lavable Interior Mate",
+            "descripcion": ["alto rendimineto", "alto poder cubritivo", "Lavable"],
+            "aviso":"Sólo disponible en tiendas"
+        },
+        {
+            "imagen": "../img/productosHyO/HyO2.jpg",
+            "nombre": "Lavable Interior Satinado",
+            "descripcion": ["alto rendimineto", "alto poder cubritivo", "Lavable"],
+            "aviso":"Sólo disponible en tiendas"
+        },
+        {
+            "imagen": "../img/productosHyO/HyO3.jpg",
+            "nombre": "Profesional Látex Interior Mate",
+            "descripcion": ["alto rendimineto", "alto poder cubritivo", "Lavable"],
+            "aviso":"Sólo disponible en tiendas"
+        },
+        {
+            "imagen": "../img/productosHyO/HyO4.jpg",
+            "nombre": "Deco Latex Interior Mate",
+            "descripcion": ["alto rendimineto", "alto poder cubritivo", "Lavable"],
+            "aviso":"Sólo disponible en tiendas"
+        },
+        {
+            "imagen": "../img/productosHyO/HyO5.jpg",
+            "nombre": "Tersinol Interior Mate",
+            "descripcion": ["alto rendimineto", "alto poder cubritivo", "Lavable"],
+            "aviso":"Sólo disponible en tiendas"
+        },
+        {
+            "imagen": "../img/productosHyO/HyO6.jpg",
+            "nombre": "Cielorraso",
+            "descripcion": ["alto rendimineto", "anticondensante", "antihongo"],
+            "aviso":"Sólo disponible en tiendas"
+        }
+        
+    ]
+}
