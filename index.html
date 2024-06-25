@@ -6,6 +6,7 @@
     <title>Pintureria</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
 </head>
 <body>
@@ -131,7 +132,21 @@
             </button>
           </div>
 
-
+          <div class="container bg-success text-light my-3 p-3">
+            <h2>Calcular la cantidad de pintura</h2>
+            <p>¿No sabes cuanta pintura necesitas para tu pintura tu hogar?¡Pone los metros aqui y resolverlo!</p>
+            <div id="app">
+                <label for="ancho">Ancho: </label>
+                <input type="number" class="mx-1" id="ancho" ref="ancho">
+                <label for="largo">Largo: </label>
+                <input type="number" class="mx-1" id="largo" ref="largo">
+                <label for="altura">Altura: </label>
+                <input type="number" class="mx-1" id="altura" ref="altura">
+                <button type="button" class="btn btn-danger mx-2" v-on:click="calcularCantidad">Calcular</button>
+                <button type="button" class="btn btn-danger " v-on:click="borrarCampos">Borrar</button>
+                <p v-if="resultado !== null">El resultado es: {{ resultado }}</p>
+            </div>
+          </div>
 
     </main>
     <footer class="container-fluid bg-light text-darkr border-top ">
@@ -149,5 +164,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
     <script src="../js/bootstrap.js"></script>
     <script src="../js/footer.js"></script>
+    <script src="./js/calcularPintura.js"></script>
 </body>
 </html>

@@ -1,0 +1,49 @@
+{
+    "patologias": [
+        {
+            "imagen": "https://www.tersuave.com.ar/assets/media/technical/patologias/alcalinidad.jpg",
+            "nombre": "Alcalinidad",
+            "informacion": "Ver más"
+        },
+        {
+            "imagen": "https://www.tersuave.com.ar/assets/media/technical/patologias/ampollado.jpg",
+            "nombre": "Ampollado",
+            "informacion": "Ver más"
+        },
+        {
+            "imagen": "https://www.tersuave.com.ar/assets/media/technical/patologias/corrosionoxidacion.jpg",
+            "nombre": "Corrosión y Oxidación",
+            "informacion": "Ver más"
+        },
+        {
+            "imagen": "https://www.tersuave.com.ar/assets/media/technical/patologias/cuarteo.jpg",
+            "nombre": "Cuarteo",
+            "informacion": "Ver más"
+        },
+        {
+            "imagen": "https://www.tersuave.com.ar/assets/media/technical/patologias/depositos-de-nicotina.jpg",
+            "nombre": "Depósitos de Nicotina",
+            "informacion": "Ver más"
+        },
+        {
+            "imagen": "https://www.tersuave.com.ar/assets/media/technical/patologias/desmoldantes-de-hormigon.jpg",
+            "nombre": "Desmoldantes de Hormigón",
+            "informacion": "Ver más"
+        },
+        {
+            "imagen": "https://www.tersuave.com.ar/assets/media/technical/patologias/desmoldantes-de-plasticos.jpg",
+            "nombre": "Desmoldantes de Plásticos",
+            "informacion": "Ver más"
+        },
+        {
+            "imagen": "https://www.tersuave.com.ar/assets/media/technical/patologias/efecto-lupa-en-maderas.jpg",
+            "nombre": "Efecto Lupa en Maderas",
+            "informacion": "Ver más"
+        },
+        {
+            "imagen": "https://www.tersuave.com.ar/assets/media/technical/patologias/eflorescencia-salina.jpg",
+            "nombre": "Eflorescencia Salina",
+            "informacion": "Ver más"
+        }
+    ]
+}
