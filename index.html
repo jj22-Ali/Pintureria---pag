@@ -69,7 +69,7 @@
                         <img src="./img/b386ce710544f9998c0a1f21ec4ee263.jpg" class="card-img-top" alt="...">
                         <div class="card-body bg-danger text-light">
                             <h5 class="card-title">Colores</h5>
-                            <p class="card-text">Ponele un poco de color a tu vida pendejo pajero, con estos colores se te va a parar como el obelisco.</p>
+                            <p class="card-text">Ponele un poco de color a tu vida pendejo pelotudo, con estos colores se te va a parar como el obelisco.</p>
                             <a href="#" class="btn btn-primary">Ver mas</a>
                         </div>
                     </div>
@@ -136,12 +136,12 @@
             <h2>Calcular la cantidad de pintura</h2>
             <p>¿No sabes cuanta pintura necesitas para tu pintura tu hogar?¡Pone los metros aqui y resolverlo!</p>
             <div id="app">
-                <label for="ancho">Ancho: </label>
-                <input type="number" class="mx-1" id="ancho" ref="ancho">
-                <label for="largo">Largo: </label>
-                <input type="number" class="mx-1" id="largo" ref="largo">
-                <label for="altura">Altura: </label>
-                <input type="number" class="mx-1" id="altura" ref="altura">
+                <label for="ancho" class="form-label">Ancho: </label>
+                <input type="number" class="mx-1 form-control" id="ancho" ref="ancho">
+                <label for="largo " class="form-label">Largo: </label>
+                <input type="number" class="mx-1 form-control" id="largo" ref="largo">
+                <label for="altura " class="form-label">Altura: </label>
+                <input type="number" class="mx-1 form-control" id="altura" ref="altura">
                 <button type="button" class="btn btn-danger mx-2" v-on:click="calcularCantidad">Calcular</button>
                 <button type="button" class="btn btn-danger " v-on:click="borrarCampos">Borrar</button>
                 <p v-if="resultado !== null">El resultado es: {{ resultado }}</p>

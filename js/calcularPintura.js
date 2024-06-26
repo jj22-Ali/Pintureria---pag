@@ -22,7 +22,7 @@ const miAplicacion = Vue.createApp({
             this.$refs.ancho.value = "";
             this.$refs.largo.value = "";
             this.$refs.altura.value = "";
-            this.resultado = null;
+            this.resultado = null; 
         }
     }
 }).mount("#app");
