@@ -1,0 +1,41 @@
+{
+    "productos":[
+        {
+            "imagen": "../img/productosIND/IND1.jpg",
+            "nombre": "Indulac Esmalte Epoxy Brillante  ",
+            "descripcion": ["alto rendimineto", "alto poder cubritivo", "Lavable"],
+            "aviso":"Sólo disponible en tiendas"
+        },
+        {
+            "imagen": "../img/productosIND/IND2.jpg",
+            "nombre": "Indulac Esmalte Poliuretánico Brillante",
+            "descripcion": ["alto rendimineto", "alto poder cubritivo", "Lavable"],
+            "aviso":"Sólo disponible en tiendas"
+        },
+        {
+            "imagen": "../img/productosIND/IND3.jpg",
+            "nombre": "Inducal Wash Primer Diluyente",
+            "descripcion": ["alto rendimineto", "alto poder cubritivo", "Lavable"],
+            "aviso":"Sólo disponible en tiendas"
+        },
+        {
+            "imagen": "../img/productosIND/IND4.jpg",
+            "nombre": "Indulac Transepoxi Interfase Brillante",
+            "descripcion": ["alto rendimineto", "alto poder cubritivo", "Lavable"],
+            "aviso":"Sólo disponible en tiendas"
+        },
+        {
+            "imagen": "../img/productosIND/IND5.jpg",
+            "nombre": "Indulac Wash Primer Pretratamiento Vinilico Mate",
+            "descripcion": ["alto rendimineto", "alto poder cubritivo", "Lavable"],
+            "aviso":"Sólo disponible en tiendas"
+        },
+        {
+            "imagen": "../img/productosIND/IND6.jpg",
+            "nombre": "Recubrimiento Epoxi Altos Solidos HB Bituminoso",
+            "descripcion": ["alto rendimineto", "anticondensante", "antihongo"],
+            "aviso":"Sólo disponible en tiendas"
+        }
+        
+    ]
+}
