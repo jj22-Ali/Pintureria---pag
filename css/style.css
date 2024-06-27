@@ -276,6 +276,40 @@ ul li a:hover{
     color:white
 }
 
+.contTiendasCercanas{
+    border: 1px solid black;
+    height: auto;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contTiendasCercanas:hover {
+    transform: translateY(-5px); /* Levantar la tarjeta */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Incrementar la sombra */
+}
+
+.boxImgTiendasCercanas{
+    width: 40%;
+
+}
+
+.boxImgTiendasCercanas img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.boxDescTiendasCercanas{
+    width: 60%;
+    
+    font-size: 19px;
+}
+
+.boxDescTiendasCercanas a{
+    font-size: 19px;
+}
+
 footer{
 
     font-size: 18px;
@@ -305,6 +339,14 @@ footer{
         width: 100%;
     }
 
+    .boxDescTiendasCercanas {
+        font-size: 14px;
+    }
+
+    .boxDescTiendasCercanas a {
+        font-size: 14px;
+    }
+
 }
 
 @media(max-width:767px){
@@ -322,6 +364,23 @@ footer{
         line-height: 60px;
     }
 
+    .contTiendasCercanas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxImgTiendasCercanas, .boxDescTiendasCercanas {
+        width: 100%;
+    }
+
+    .boxDescTiendasCercanas {
+        font-size: 16px;
+    }
+
+    .boxDescTiendasCercanas a {
+        font-size: 16px;
+    }
+}
 
 }
 
@@ -381,4 +440,6 @@ footer{
         line-height: 100px;
     }
 }
+
+
 
