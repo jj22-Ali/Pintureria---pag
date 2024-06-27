@@ -15,7 +15,9 @@ const miAplicacion = Vue.createApp({
                 return
             }
             
-            this.resultado = (ancho*altura*largo)/6;
+            const cantidad = (ancho*altura*largo)/6;
+
+            this.resultado = Math.ceil(cantidad);
     
         },
         borrarCampos(){
